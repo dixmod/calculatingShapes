@@ -1,0 +1,6 @@
+services:
+    app.shape.type.circle:
+        class: Dixmod\Shapes\Circle
+        arguments: [$radius]
+        tags:
+            - { name: shape.type }

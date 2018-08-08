@@ -1,0 +1,25 @@
+{
+  "name": "dixmod/calculatingShapes",
+  "description": "Application to calculating the area and perimeter of simple geometric shapes",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+	{
+	  "name": "dixmod",
+	  "email": "dixmod@gmail.com"
+	}
+  ],
+  "require-dev": {
+	"phpunit/phpunit": "^7"
+  },
+  "require": {
+	"php": "7.1.*",
+	"dixmod/shapes": "^1.0",
+	"symfony/console": "^4.1"
+  },
+  "autoload": {
+	"psr-4": {
+	  "Dixmod\\": "src/"
+	}
+  }
+}
