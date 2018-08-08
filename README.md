@@ -2,7 +2,7 @@
 Application to calculating the area and perimeter of simple geometric shapes
 
 # Usage
->$ ./run shape [<typeShape>]
+>$ ./run shape \[\<typeShape\>\]
 
-###Arguments:
+## Arguments
 typeShape: Circle, Rectangle, Square, Triangle`
